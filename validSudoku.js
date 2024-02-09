@@ -89,5 +89,5 @@ const board4 = [
   ]
   
   
-var vaild = isValidSudoku(board3)
-console.log(vaild)
+console.log(isValidSudoku(board3))
+console.log(isValidSudoku(board4))
