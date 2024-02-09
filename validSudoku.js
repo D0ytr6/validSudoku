@@ -1,4 +1,4 @@
-function isValidSudoku(board) {
+function validSolution(board) {
     const size = 9;
 
     // Check each row
@@ -89,5 +89,5 @@ const board4 = [
   ]
   
   
-console.log(isValidSudoku(board3))
-console.log(isValidSudoku(board4))
+console.log(validSolution(board3))
+console.log(validSolution(board4))
